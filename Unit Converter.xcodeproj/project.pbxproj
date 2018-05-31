@@ -11,6 +11,8 @@
 		AEFF2BF8201035B200CE0BB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEFF2BF7201035B200CE0BB8 /* Assets.xcassets */; };
 		AEFF2BFB201035B200CE0BB8 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = AEFF2BF9201035B200CE0BB8 /* MainMenu.xib */; };
 		AEFF2BFE201035B200CE0BB8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AEFF2BFD201035B200CE0BB8 /* main.m */; };
+		AEFF2C0920103B0700CE0BB8 /* WindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEFF2C0820103B0700CE0BB8 /* WindowController.m */; };
+		AEFF2C0D20103E6A00CE0BB8 /* Convertor.m in Sources */ = {isa = PBXBuildFile; fileRef = AEFF2C0C20103E6A00CE0BB8 /* Convertor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,10 @@
 		AEFF2BFC201035B200CE0BB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AEFF2BFD201035B200CE0BB8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AEFF2BFF201035B200CE0BB8 /* Unit_Converter.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Unit_Converter.entitlements; sourceTree = "<group>"; };
+		AEFF2C0720103B0700CE0BB8 /* WindowController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WindowController.h; sourceTree = "<group>"; };
+		AEFF2C0820103B0700CE0BB8 /* WindowController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WindowController.m; sourceTree = "<group>"; };
+		AEFF2C0B20103E6A00CE0BB8 /* Convertor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Convertor.h; sourceTree = "<group>"; };
+		AEFF2C0C20103E6A00CE0BB8 /* Convertor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Convertor.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,15 +60,27 @@
 		AEFF2BF3201035B200CE0BB8 /* Unit Converter */ = {
 			isa = PBXGroup;
 			children = (
-				AEFF2BF4201035B200CE0BB8 /* AppDelegate.h */,
-				AEFF2BF5201035B200CE0BB8 /* AppDelegate.m */,
+				AEFF2C0A20103B1600CE0BB8 /* Classes */,
 				AEFF2BF7201035B200CE0BB8 /* Assets.xcassets */,
 				AEFF2BF9201035B200CE0BB8 /* MainMenu.xib */,
 				AEFF2BFC201035B200CE0BB8 /* Info.plist */,
-				AEFF2BFD201035B200CE0BB8 /* main.m */,
 				AEFF2BFF201035B200CE0BB8 /* Unit_Converter.entitlements */,
 			);
 			path = "Unit Converter";
+			sourceTree = "<group>";
+		};
+		AEFF2C0A20103B1600CE0BB8 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				AEFF2BF4201035B200CE0BB8 /* AppDelegate.h */,
+				AEFF2BF5201035B200CE0BB8 /* AppDelegate.m */,
+				AEFF2C0720103B0700CE0BB8 /* WindowController.h */,
+				AEFF2C0820103B0700CE0BB8 /* WindowController.m */,
+				AEFF2C0B20103E6A00CE0BB8 /* Convertor.h */,
+				AEFF2C0C20103E6A00CE0BB8 /* Convertor.m */,
+				AEFF2BFD201035B200CE0BB8 /* main.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,7 +153,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEFF2C0D20103E6A00CE0BB8 /* Convertor.m in Sources */,
 				AEFF2BFE201035B200CE0BB8 /* main.m in Sources */,
+				AEFF2C0920103B0700CE0BB8 /* WindowController.m in Sources */,
 				AEFF2BF6201035B200CE0BB8 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
