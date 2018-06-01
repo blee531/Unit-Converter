@@ -1,0 +1,4 @@
+instruction:
+  - put input value in corresponding field
+  - choose convertion type
+  - click convert
